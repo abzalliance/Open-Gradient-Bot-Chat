@@ -222,7 +222,7 @@ if (isMainThread) {
 
         displayTable() {
             console.clear();
-            console.log('\x1b[34m                                 -= Auto Chat OpenGradient =-\x1b[0m                                 ');
+            console.log('\x1b[34m                  t.me/boterdrop -= Auto Chat OpenGradient =-\x1b[0m t.me/boterdrop                  ');
 
             const table = new Table({
                 head: ['No', 'Proxy', 'Address', 'Status', 'Chat Total', 'Points', 'Process'],
@@ -283,7 +283,7 @@ if (isMainThread) {
             console.log(table.toString());
             
             const totalPoints = this.calculateTotalPoints();
-            console.log(`\n\x1b[34mRINGKASAN\x1b[0m :\nTotal Akun: \x1b[32m${this.privateKeys.length}\x1b[0m | Completed: \x1b[32m${this.completed.length}\x1b[0m | Running: \x1b[34m${this.workers.length}\x1b[0m | Queue: \x1b[33m${Math.max(0, this.privateKeys.length - this.currentIndex)}\x1b[0m | Total Points: \x1b[32m${totalPoints}\x1b[0m`);
+            console.log(`\n\x1b[34mt.me/boterdrop - RINGKASAN\x1b[0m :\nTotal Akun: \x1b[32m${this.privateKeys.length}\x1b[0m | Completed: \x1b[32m${this.completed.length}\x1b[0m | Running: \x1b[34m${this.workers.length}\x1b[0m | Queue: \x1b[33m${Math.max(0, this.privateKeys.length - this.currentIndex)}\x1b[0m | Total Points: \x1b[32m${totalPoints}\x1b[0m`);
         }
 
         async run() {
