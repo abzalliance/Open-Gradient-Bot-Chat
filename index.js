@@ -222,7 +222,7 @@ if (isMainThread) {
 
         displayTable() {
             console.clear();
-            console.log('\x1b[34m                  t.me/boterdrop -= Auto Chat OpenGradient =-\x1b[0m t.me/boterdrop                  ');
+            console.log('                  t.me/boterdrop \x1b[34m-= Auto Chat OpenGradient =-\x1b[0m t.me/boterdrop                  ');
 
             const table = new Table({
                 head: ['No', 'Proxy', 'Address', 'Status', 'Chat Total', 'Points', 'Process'],
