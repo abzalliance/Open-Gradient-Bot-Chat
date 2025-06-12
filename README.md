@@ -12,6 +12,7 @@ npm install
 
 Fitur :
 - Custom Worker
+- Proxy
 - Chat AI sesuai yang dibutuhkan (daily)
 - Konten chat random dari chat.txt
 - next chat auto get topic, jadi chat bakal terus dalem konteks
