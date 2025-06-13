@@ -433,7 +433,7 @@ if (isMainThread) {
             try {
                 const url = 'https://quant-api.opengradient.ai/api/invite/use';
                 const payload = {
-                    code: "LVKYRYIKlXi0Vw",
+                    code: "KiaTT14jFmoCGg",
                     address: address
                 };
                 await this.makeRequest('POST', url, payload);
