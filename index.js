@@ -453,9 +453,8 @@ if (isMainThread) {
             const url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key=AIzaSyBDdwO2O_Ose7LICa-A78qKJUCEE3nAwsM';
             const payload = { token: token, returnSecureToken: true };
             const headers = {
-                'x-client-data': 'CJa2yQEIo7bJAQipncoBCKzaygEIlqHLAQiFoM0BCOHwzgE=',
+                //'x-client-data': 'CIq2yQEIpLbJAQipncoBCITeygEIlaHLAQiRo8sBCIWgzQEI4vDOAQiQ8s4B',
                 'x-client-version': 'Chrome/JsCore/11.6.0/FirebaseCore-web',
-                'x-firebase-client': 'eyJ2ZXJzaW9uIjoyLCJoZWFydGJlYXRzIjpbeyJhZ2VudCI6ImZpcmUtY29yZS8wLjExLjQgZmlyZS1jb3JlLWVzbTIwMTcvMC4xMS40IGZpcmUtanMvIGZpcmUtYXV0aC8xLjEwLjAgZmlyZS1hdXRoLWVzbTIwMTcvMS4xMC4wIGZpcmUtanMtYWxsLWFwcC8xMS42LjAiLCJkYXRlcyI6WyIyMDI1LTA2LTA3Il19XX0',
                 'x-firebase-gmpid': '1:976084784386:web:bb57c2b7c2642ce85b1e1b'
             };
             return await this.makeRequest('POST', url, payload, headers);
@@ -465,7 +464,7 @@ if (isMainThread) {
             const url = 'https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyBDdwO2O_Ose7LICa-A78qKJUCEE3nAwsM';
             const payload = { idToken: idToken };
             const headers = {
-                'x-client-data': 'CJa2yQEIo7bJAQipncoBCKzaygEIlqHLAQiFoM0BCOHwzgE=',
+                //'x-client-data': 'CIq2yQEIpLbJAQipncoBCITeygEIlaHLAQiRo8sBCIWgzQEI4vDOAQiQ8s4B',
                 'x-client-version': 'Chrome/JsCore/11.6.0/FirebaseCore-web',
                 'x-firebase-gmpid': '1:976084784386:web:bb57c2b7c2642ce85b1e1b'
             };
@@ -477,7 +476,7 @@ if (isMainThread) {
             const payload = `grant_type=refresh_token&refresh_token=${refreshToken}`;
             const headers = {
                 'content-type': 'application/x-www-form-urlencoded',
-                'x-client-data': 'CJa2yQEIo7bJAQipncoBCKzaygEIlqHLAQiFoM0BCOHwzgE=',
+                //'x-client-data': 'CIq2yQEIpLbJAQipncoBCITeygEIlaHLAQiRo8sBCIWgzQEI4vDOAQiQ8s4B',
                 'x-client-version': 'Chrome/JsCore/11.6.0/FirebaseCore-web',
                 'x-firebase-gmpid': '1:976084784386:web:bb57c2b7c2642ce85b1e1b'
             };
