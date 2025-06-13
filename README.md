@@ -9,12 +9,12 @@ install dependencies :
 npm install
 ```
 
-
 Fitur :
 - Custom Worker
 - Proxy
+- Multi Akun
 - Chat AI sesuai yang dibutuhkan (daily)
 - Konten chat random dari chat.txt
 - next chat auto get topic, jadi chat bakal terus dalem konteks
-- Auto Relog jika error 403 saat chat
-- Looping per 6 jam
+- Auto Relog jika error saat chat
+- Looping per 12 jam
