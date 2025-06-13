@@ -317,7 +317,7 @@ if (isMainThread) {
 
         async countdown(duration) {
             let remaining = duration;
-            const animationChars = ['â ‹', 'â ™', 'â ¹', 'â ¸', 'â ¼', 'â ´', 'â ¦', 'â §', 'â ‡', 'â '];
+            const animationChars = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏'];
             let animationIndex = 0;
             
             while (remaining > 0) {
@@ -326,7 +326,7 @@ if (isMainThread) {
                 remaining -= 100;
                 animationIndex = (animationIndex + 1) % animationChars.length;
             }
-            process.stdout.write(`\r[\x1b[34m!\x1b[0m]  \x1b[32mâœ”\x1b[0m  Countdown: Selesai         `);
+            process.stdout.write(`\r[\x1b[34m!\x1b[0m] \x1b[32m✔\x1b[0m Countdown: Complete `);
             console.log('');
         }
     }
