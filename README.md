@@ -18,3 +18,17 @@ Fitur :
 - next chat auto get topic, jadi chat bakal terus dalem konteks
 - Auto Relog jika error saat chat
 - Looping per 12 jam
+
+  =========================
+
+Features:
+
+* Custom Worker
+* Proxy Support
+* Multi-Account Support
+* AI Chat for daily needs
+* Random chat content from `chat.txt`
+* Next chat auto-grabs topic, so conversations stay in context
+* Auto Relog if chat error occurs
+* Loop every 12 hours
+
